@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/bunny-english/sw.js', { scope: '/bunny-english/' })})}
